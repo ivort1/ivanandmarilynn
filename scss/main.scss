@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$primary-black: #111111;
+$secondary-black: #484848;
+$gray: #DADADA;
+
+$font-family-header: 'Cinzel', serif;
+$font-family-body: 'Raleway', sans-serif;
+
+@mixin bold-600 {
+    font-weight: 600;
+}
+
+%margin-vertical-components {
+    div, .btn, img {
+        margin-bottom: 1rem;
+    }
+}
+
+%flexbox-row {
+    display: flex;
+    flex-direction: row;
+}
+
+%flexbox-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexbox-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexbox-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: $font-family-body;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+.header {
+    color: $primary-black !important;
+    font-family: $font-family-header;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    border-style: solid;
+	border-color: transparent;
+	border-width: 0 0 0.1rem 0;
+    box-shadow: 0 0 2rem 0 $gray;
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 1px;
+    }
+
+    .d-flex {
+        max-width: 15rem;
+    }
+
+    .language-select {
+        @extend %flexbox-row;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+            color: $secondary-black;
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+.home-section {
+    @extend %flexbox-column;
+    justify-content: center;
+    align-items: center;
+
+    @extend %margin-vertical-components;
+
+    margin: 3rem 0;
+    padding: 0 1rem;
+    text-align: center;
+
+    img {
+        border: solid 0.5rem #FFFFFF;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        height: auto;
+        max-width: 30rem;
+        transform: rotate(3deg);
+        width: 100%;
+    }
+}
+
+.ceremony-section {
+    @include flexbox-column-center;
+
+    background-image: url('/catedral.webp');
+    background-position: 60% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    width: 100%;
+
+    .ceremony-text {
+        color: $secondary-black;
+        margin-bottom: 1rem;
+    }
+}
+
+.venue-section {
+    @extend %flexbox-column;
+
+    // background-color: $primary-black;
+    // margin: 2rem 0;
+    height: 45vh;
+    position: relative;
+    text-align: center;
+
+    span {
+        @include bold-600;
+    }
+
+    img {
+        height: auto;
+        max-width: 50rem;
+        width: 100%;
+    }
+
+    .venue-text {
+        @extend %margin-vertical-components;
+
+        color: $secondary-black;
+    }
+
+    .custom-shape-divider-bottom-1625981325 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1625981325 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 35px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1625981325 .shape-fill {
+        fill: #111111;
+    }
+}
+
+.travel-information-section {
+    @include flexbox-column-center;
+
+    background-color: #111111;
+    color: $white;
+
+    .header {
+        color: #FFFFFF !important;
+        margin-top: 3rem;
+    }
+
+    .row {
+        @extend %flexbox-column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+
+        .col-lg-4 {
+            display: flex;
+            justify-content: center;
+            align-items: strech;
+        }
+
+        .card {
+            background-color: transparent;
+            border: none;
+            flex: auto;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .card-body {
+            @extend %flexbox-column;
+            align-items: stretch;
+            justify-content: space-between;
+        }
+    }
+
+    .travel-information-accordion {
+        margin: 2rem 0;
+        max-width: 50rem;
+        width: 100%;
+
+        .accordion-item {
+            background-color: transparent;
+            border-bottom-color: $white;
+        }
+
+        .accordion-button {
+            background-color: $primary-black;
+            color: $white;
+        }
+    }
+}
+
+.faq-section {
+    @include flexbox-column-center;
+
+    position: relative;
+    text-align: center;
+
+    .header {
+        margin-top: 5rem;
+    }
+
+    .faq-body {
+        margin-bottom: 2rem;
+        max-width: 50rem;
+        padding: 0 1rem;
+    }
+
+    .faq-question {
+        @include bold-600;
+
+        color: $primary-black;
+        margin: 0 0 0.5rem 0;
+    }
+
+    .faq-answer {
+        color: $secondary-black;
+    }
+
+    .custom-shape-divider-top-1625982302 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1625982302 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 35px;
+    }
+    
+    .custom-shape-divider-top-1625982302 .shape-fill {
+        fill: #111111;
+    }
+}
+
+.contact-us-section {
+    @extend %flexbox-column;
+
+    border-top: solid 1px $gray;
+    color: $secondary-black;
+    text-align: center;
+
+    a {
+        color: $secondary-black !important;
+        margin-right: 0.35rem;
+    }
+
+    .header {
+        margin-top: 2rem;
+    }
+
+    .contact-us-body {
+        div, .btn {
+            margin-bottom: 2rem;
+        }
+
+        max-width: 50rem;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .nav-item {
+        margin-right: 1rem;
+    }
+}
