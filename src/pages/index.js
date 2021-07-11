@@ -1,182 +1,227 @@
 import * as React from "react"
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-}
+import "../../scss/main.scss";
+import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
+// Components
+import Accordion from '../../components/Accordion';
+import Card from '../../components/Card';
+import Icon from '../../components/Icon';
+import FrequentlyAskedQuestion from '../../components/FrequentlyAskedQuestion';
 
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
+// Font Awesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe, faMoneyBillWave, faPassport, faPlane } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faInstagram, faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-}
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-}
-
-// data
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-  {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
-  },
-  {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
-  },
-]
-
-// markup
 const IndexPage = () => {
+  const plane = <FontAwesomeIcon icon={faPlane} />
+  const passport = <FontAwesomeIcon icon={faPassport} />
+  const money = <FontAwesomeIcon icon={faMoneyBillWave} />
+  const envelope = <FontAwesomeIcon icon={faEnvelope} />
+  const instagram = <FontAwesomeIcon icon={faInstagram} />
+  const whatsapp = <FontAwesomeIcon icon={faWhatsapp} />
+  const twitter = <FontAwesomeIcon icon={faTwitter} />
+  const globe = <FontAwesomeIcon icon={faGlobe} />
+
+  const travel_information_faq1 = 
+  <div>
+    <ul>
+      <li>Most hotels offer a shuttle service (for a fee) for large groups of passengers. Please contact your hotel for more information.</li>
+      <li>There are always taxis available directly in front of the airport. They are 4-door sedans and can fit a total of 4 passengers per vehicle. The drivers know all of the major hotels in the city so just provide them with the name and you'll be on your way. The average cost of a ride is around $500 pesos (~$25 USD).</li>
+    </ul>
+  </div>
+
+const travel_information_faq2 = 
+<div>
+  <ul>
+    <li>Most banks offer currency exchange services. Please be aware that you will most likely have to wait 2-3 days for the exchange to be ready so please be sure to submit your request at least 5 days before leaving for Mexico.</li>
+    <li>You may also withdraw cash from an ATM in Morelia using your debit card. There are numerous banks located near the cathedral but the one we regularly use is BBVA Bancomer. Please be aware that there is a foreign withdrawal fee of around $8 USD with BBVA and we expect this to also be the case with the other banks.</li>
+  </ul>
+</div>
+
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
+    <main>
+      <div className="container-fluid">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-light">
+          <div className="container">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="container collapse navbar-collapse" id="navbarCollapse">
+              <ul className="navbar-nav text-center me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link" href="#home-section">Home</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#ceremony-section">Ceremony</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#venue-section">Venue</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#travel-information-section">Travel Information</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#faq-section">FAQ's</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#contact-us-section">Contact Us</a>
+                </li>
+              </ul>
+              <div className="language-select">
+                <span className="icon fa-lg">{globe}</span>
+                <form className="d-flex">
+                  <select className="form-select" aria-label="Default select example">
+                    <option value="1" selected>English</option>
+                    <option value="2">Espanol</option>
+                  </select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        {/* Home */}
+        <div className="container">
+          <div className="home-section" id="home-section">
+            <div className="header">Ivan & Marilynn's Wedding</div>
+            <img src="/ivan_and_marilynn_horizontal.png" alt="Ivan and Marilynn" />
+            <div>
+              Friday, July 30, 2021
+              <br />
+              Morelia, Michoacan, Mexico
+              </div>
+            <button type="button" className="btn btn-dark">Find your seat</button>
+          </div>
+        </div>
+        
+      
+        {/* Ceremony */}
+        <div className="container">
+          <div className="ceremony-section" id="ceremony-section">
+            <div className="header">Ceremony</div>
+            <div className="ceremony-text">
+              Cathedral of Morelia
+              <br />
+              12:00PM
+            </div>
+            <a href="https://goo.gl/maps/Sn1mRjvKtQAyR4S18" rel='noopener noreferrer' target='_blank'><button type="button" className="btn btn-outline-dark">Get directions</button></a>
+          </div>
+        </div>
+        
+        {/* Venue */}
+        <div className="venue-section" id="venue-section">
+          <div className="header">Venue</div>
+          <div className="venue-text">
+            <div>
+              <span>Casa Grande</span>
+              <br />
+              Cocktail hour: 5:00 - 6:00PM
+              <br />
+              Reception: 6:00PM - 12:00AM
+            </div>
+          </div>
+          <a href="https://www.google.com/maps/dir//Casa+Grande,+Portal+Matamoros,+C.+Abasolo+98,+Centro+hist%C3%B3rico+de+Morelia,+58000+Morelia,+Mich.,+Mexico/@19.7020755,-101.1963964,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x842d0e70607dea63:0x937bc9ca56599a37!2m2!1d-101.194157!2d19.7020745!3e0" rel='noopener noreferrer' target='_blank'><button type="button" className="btn btn-outline-dark">Get directions</button></a>
+
+          {/* <img alt="Casa Grande" src="/casa_grande.webp" /> */}
+          <div className="custom-shape-divider-bottom-1625981325">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
+              </svg>
+          </div>     
+        </div>
+
+        {/* Travel Information */}
+        <div className="travel-information-section" id="travel-information-section">
+          <div className="header">Travel Information</div>
+          <div className="row">
+            <Card
+              cardTitle="Airport"
+              cardText="General Francisco Mujica International Airport"
+              href="https://www.google.com/maps/place/General+Francisco+Mujica+International+Airport/@19.7693433,-101.1741037,12z/data=!3m1!5s0x842d19aa987ab5e7:0xccb880dbf3843650!4m5!3m4!1s0x842d18fe1cff6a55:0xd460e1495d49a9a0!8m2!3d19.8464645!4d-101.0281372"
+              icon={plane}
+              buttonText="Google Maps" />
+
+            <Card 
+              cardTitle="Your Passport"
+              cardText="If you do not have a valid U.S. passport or if it has expired, please take the necessary steps to obtain or renew it. Visit the U.S. Department of State website for more information."
+              href="https://travel.state.gov/content/travel/en/passports.html"
+              icon={passport}
+              buttonText="U.S. Department of State" />
+
+            <Card 
+              cardTitle="Currency"
+              cardText="The currency in Mexico is the Peso and the exchange rate is usually around $20 MXN for $1 USD."
+              href="https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=MXN"
+              icon={money}
+              buttonText="Check the exchange rate" />
+            
+          </div>
+
+          <div className="travel-information-accordion">
+            <div className="accordion accordion-flush" id="accordionFlushExample">
+              <Accordion 
+                accordionButtonText="How can I get to my hotel from the airport?"
+                accordionBodyText={travel_information_faq1}
+                number="One" />
+
+              <Accordion
+                accordionButtonText="Where can I exchange currency?"
+                accordionBodyText={travel_information_faq2}
+                number="Two" />
+
+              <Accordion 
+                accordionButtonText="First time flying from Tijuana/San Diego?"
+                number="Three" />
+            </div>
+          </div>
+        </div>
+
+        {/* FAQs */}
+        <div className="faq-section" id="faq-section">
+          <div className="custom-shape-divider-top-1625982302">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
+            </svg>
+          </div>
+          
+          <div className="header">FAQ's</div>
+
+          <FrequentlyAskedQuestion 
+            question="Will I need to arrange transportation between my hotel, the cathedral, and the venue?"
+            answer="The church, the venue, and all of the hotels listed above are all walking distance from one another! Your total commute time between the three should be 5 - 10 minutes. You will not need to arrange for transportation of any kind. " />
+
+          <FrequentlyAskedQuestion 
+            question="Will I need to arrange transportation between my hotel, the cathedral, and the venue?"
+            answer="The church, the venue, and all of the hotels listed above are all walking distance from one another! Your total commute time between the three should be 5 - 10 minutes. You will not need to arrange for transportation of any kind. " />
+        </div>
+
+        {/* Contact Us */}
+        <div className="container">
+          <div className="contact-us-section" id="contact-us-section">
+            <div className="header">Contact Us</div>
+            <div className="contact-us-body">
+              <div>If you have any questions or concerns, please do not hesitate to reach out to us. We're available via email or you can reach us individually using the communucation channels below. Thank you!</div>
+              
+              <button type="button" className="btn btn-outline-dark">{envelope} Send us an email</button>
+
+              <div className="contact-us-individual">
+                Marilynn – &nbsp;
+                <Icon href="https://api.whatsapp.com/send?phone=16264948645" icon={whatsapp} />
+                <Icon href="https://www.instagram.com/muromar/" icon={instagram} />
+                <Icon href="https://twitter.com/MurMarilynn" icon={twitter} />
+                <br />
+                Ivan – &nbsp;
+                <Icon href="https://api.whatsapp.com/send?phone=16263847075" icon={whatsapp} />
+                <Icon href="https://www.instagram.com/ivunortiz/" icon={instagram} />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
     </main>
   )
 }
