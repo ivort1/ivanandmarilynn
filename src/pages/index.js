@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 
 import {useI18next ,useTranslation} from 'gatsby-plugin-react-i18next';
@@ -35,8 +36,8 @@ const IndexPage = () => {
   return (
     <main>
       <Helmet>
-          <title>Ivan & Marilynn | Our Wedding</title>
-          {/* <link rel="apple-touch-icon" sizes="180x180" href="/icon.png"></link> */}
+          <title>{t('title')}</title>
+          <link rel="apple-touch-icon" sizes="180x180" href="/icon.png"></link>
           <meta name="apple-mobile-web-app-title" content="Ivan & Marilynn"></meta>
           <meta name="application-name" content="Ivan & Marilynn"></meta>
       </Helmet>
