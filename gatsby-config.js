@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.ivanandmarilynn-bw.netlify.app",
     title: "Ivan and Marilynn",
   },
   plugins: [
@@ -31,7 +31,7 @@ module.exports = {
         languages: [`en`, `es`],
         defaultLanguage: `en`,
         // if you are using Helmet, you must include siteUrl, and make sure you add http:https
-        siteUrl: `https://example.com/`,
+        siteUrl: `https://www.ivanandmarilynn-bw.netlify.app`,
         // you can pass any i18next options
         // pass following options to allow message content as a key
         i18nextOptions: {
