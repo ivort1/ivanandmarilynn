@@ -99,6 +99,10 @@ body {
     padding: 0 1rem;
     text-align: center;
 
+    .home-date-location {
+        color: $secondary-black;
+    }
+
     img {
         border: solid 0.5rem #FFFFFF;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -183,6 +187,7 @@ body {
     .header {
         color: #FFFFFF !important;
         margin-top: 3rem;
+        text-align: center;
     }
 
     .row {
