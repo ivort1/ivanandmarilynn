@@ -34,6 +34,13 @@ const IndexPage = () => {
 
   return (
     <main>
+      <Helmet>
+          <title>Ivan & Marilynn | Our Wedding</title>
+          {/* <link rel="apple-touch-icon" sizes="180x180" href="/icon.png"></link> */}
+          <meta name="apple-mobile-web-app-title" content="Ivan & Marilynn"></meta>
+          <meta name="application-name" content="Ivan & Marilynn"></meta>
+      </Helmet>
+
       <div className="container-fluid">
         <nav className="navbar sticky-top navbar-expand-lg navbar-light">
           <div className="container">
