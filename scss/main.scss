@@ -85,6 +85,19 @@ body {
             color: $secondary-black;
             margin-right: 0.5rem;
         }
+
+        .languages {
+            @extend %flexbox-row;
+            justify-content: space-between;
+            align-items: center;
+
+            max-width: 3rem;
+            width: 100%;
+
+            .nav-item {
+                margin: 0;
+            }
+        }
     }
 }
 

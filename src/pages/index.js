@@ -20,7 +20,8 @@ import { faInstagram, faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg
 
 const IndexPage = () => {
   const { t } = useTranslation();
-  const {languages} = useI18next();
+  const {languages, changeLanguage} = useI18next();
+
 
   const plane = <FontAwesomeIcon icon={faPlane} />
   const passport = <FontAwesomeIcon icon={faPassport} />
@@ -62,13 +63,13 @@ const IndexPage = () => {
               </ul>
               <div className="language-select">
                 <span className="icon fa-lg">{globe}</span>
-                <form className="d-flex">
-                  <select className="form-select" aria-label="Default select example">
-                    {languages.map((lng) => (
-                      <option>{lng}</option>
-                    ))}
-                  </select>
-                </form>
+                <ul className="languages navbar-nav">
+                  {languages.map((lng) => (
+                    <li className="nav-item" key={lng}>
+                      <a className="nav-link" href="#" onClick={(e) => {e.preventDefault(); changeLanguage(lng);}}>{lng}</a>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>
