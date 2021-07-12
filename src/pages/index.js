@@ -1,7 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby";
 
-import {Link, useI18next ,useTranslation} from 'gatsby-plugin-react-i18next';
+import {useI18next ,useTranslation} from 'gatsby-plugin-react-i18next';
 
 import "../../scss/main.scss";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -20,7 +20,7 @@ import { faInstagram, faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg
 
 const IndexPage = () => {
   const { t } = useTranslation();
-  const {languages, changeLanguage} = useI18next();
+  const {languages} = useI18next();
 
   const plane = <FontAwesomeIcon icon={faPlane} />
   const passport = <FontAwesomeIcon icon={faPassport} />
@@ -33,7 +33,6 @@ const IndexPage = () => {
 
   return (
     <main>
-
       <div className="container-fluid">
         <nav className="navbar sticky-top navbar-expand-lg navbar-light">
           <div className="container">
