@@ -209,7 +209,7 @@ const IndexPage = () => {
             <div className="contact-us-body">
               <div>{t('contact-us-body')}</div>
               
-              <a href="mailto: ortiz.ivan93@gmail.com" rel='noopener noreferrer' target='_blank'><button type="button" className="btn btn-outline-dark">{t('contact-us-button')}</button></a>
+              <a href="mailto: ortizmuro.wedding@gmail.com" rel='noopener noreferrer' target='_blank'><button type="button" className="btn btn-outline-dark">{t('contact-us-button')}</button></a>
 
               <div className="contact-us-individual">
                 <p>
