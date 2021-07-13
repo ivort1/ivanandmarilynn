@@ -3,7 +3,7 @@ import * as React from "react"
 const Card = (props) => {
 
     return (
-        <div className="col-lg-4">
+        <div className="col-xs-1">
             <div className="card">
                 <div className="card-body">
                     <h5 className="card-title">{props.cardTitle}</h5>

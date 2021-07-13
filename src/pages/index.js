@@ -40,6 +40,9 @@ const IndexPage = () => {
           <link rel="apple-touch-icon" sizes="180x180" href="/icon.png"></link>
           <meta name="apple-mobile-web-app-title" content="Ivan & Marilynn"></meta>
           <meta name="application-name" content="Ivan & Marilynn"></meta>
+
+          {/* Bootstrap */}
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       </Helmet>
 
       <div className="container-fluid">

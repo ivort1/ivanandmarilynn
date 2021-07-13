@@ -83,6 +83,7 @@ body {
 
         .icon {
             color: $secondary-black;
+            margin-right: 0.35rem;
         }
 
         .languages {
@@ -208,10 +209,10 @@ body {
         justify-content: center;
         margin: 0;
 
-        .col-lg-4 {
+        .col-xs-1 {
             display: flex;
             justify-content: center;
-            align-items: strech;
+            align-items: stretch;
         }
 
         .card {
@@ -219,13 +220,17 @@ body {
             border: none;
             flex: auto;
             margin-bottom: 3rem;
+            max-width: 50rem;
             text-align: center;
+            width: 100%;
         }
 
         .card-body {
             @extend %flexbox-column;
             align-items: stretch;
             justify-content: space-between;
+
+            padding: 1rem 0;
         }
     }
 
@@ -317,11 +322,5 @@ body {
 
         max-width: 50rem;
         padding: 0 1rem;
-    }
-}
-
-@media screen and (min-width:992px) {
-    .nav-item {
-        margin-right: 1rem;
     }
 }
