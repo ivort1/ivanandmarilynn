@@ -2,10 +2,11 @@ import * as React from "react"
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 
-import {useI18next ,useTranslation} from 'gatsby-plugin-react-i18next';
+// i18Next
+import {Link, Trans, useI18next ,useTranslation} from 'gatsby-plugin-react-i18next';
 
+// CSS
 import "../../scss/main.scss";
-// import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
 // Components
 import Accordion from '../../components/Accordion';
@@ -23,6 +24,9 @@ const IndexPage = () => {
   const { t } = useTranslation();
   const {languages, changeLanguage} = useI18next();
 
+  function LinkText({ href, children }) {
+    return <Link to={href || ''}>{children}</Link>;
+  } 
 
   const plane = <FontAwesomeIcon icon={faPlane} />
   const passport = <FontAwesomeIcon icon={faPassport} />
@@ -126,7 +130,7 @@ const IndexPage = () => {
               {t('venue-reception')}: 6:00PM - 12:00AM
             </div>
           </div>
-          <a href="https://www.google.com/maps/dir//Casa+Grande,+Portal+Matamoros,+C.+Abasolo+98,+Centro+hist%C3%B3rico+de+Morelia,+58000+Morelia,+Mich.,+Mexico/@19.7020755,-101.1963964,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x842d0e70607dea63:0x937bc9ca56599a37!2m2!1d-101.194157!2d19.7020745!3e0" rel='noopener noreferrer' target='_blank'><button type="button" className="btn btn-outline-dark">{t('get-directions')}</button></a>
+          <a href="https://goo.gl/maps/GAgqjdhfd7J6xazu9" rel='noopener noreferrer' target='_blank'><button type="button" className="btn btn-outline-dark">{t('get-directions')}</button></a>
 
           {/* <img alt="Casa Grande" src="/casa_grande.webp" /> */}
           <div className="custom-shape-divider-bottom-1625981325">
@@ -160,24 +164,23 @@ const IndexPage = () => {
               href="https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=MXN"
               icon={money}
               buttonText={t('travel-information-currency-button')} />
-            
           </div>
 
           <div className="travel-information-accordion">
             <div className="accordion accordion-flush" id="accordionFlushExample">
               <Accordion 
                 accordionButtonText={t('travel-information-faq-question1')}
-                accordionBodyText={t('travel-information-faq-answer1')}
+                accordionBodyText={<Trans i18nKey="travel-information-faq-answer1" t={t} components={[<LinkText href="https://goo.gl/maps/JtN8Y8ZyaAmdpYzD7" />]} />}
                 number="One" />
 
               <Accordion
                 accordionButtonText={t('travel-information-faq-question2')}
-                accordionBodyText={t('travel-information-faq-answer2')}
+                accordionBodyText={<Trans i18nKey="travel-information-faq-answer2" t={t} components={[<LinkText href="https://goo.gl/maps/JtN8Y8ZyaAmdpYzD7" />, <LinkText href="https://goo.gl/maps/zgaMNZWwjNVA5Yxt7" />]} />}
                 number="Two" />
 
               <Accordion 
                 accordionButtonText={t('travel-information-faq-question3')}
-                accordionBodyText={t('travel-information-faq-answer3')}
+                accordionBodyText={<Trans i18nKey="travel-information-faq-answer3" t={t} components={[<LinkText href="https://g.page/Crossborderxpress?share" />, <LinkText href="https://www.crossborderxpress.com/en/" />]} />}
                 number="Three" />
             </div>
           </div>
@@ -197,8 +200,6 @@ const IndexPage = () => {
           <FrequentlyAskedQuestion question={t('faq-question2')} answer={t('faq-answer2')} />
           <FrequentlyAskedQuestion question={t('faq-question3')} answer={t('faq-answer3')} />
           <FrequentlyAskedQuestion question={t('faq-question4')} answer={t('faq-answer4')} />
-
-
         </div>
 
         {/* Contact Us */}
@@ -211,14 +212,18 @@ const IndexPage = () => {
               <button type="button" className="btn btn-outline-dark">{envelope} {t('contact-us-button')}</button>
 
               <div className="contact-us-individual">
-                Marilynn – &nbsp;
-                <Icon href="https://api.whatsapp.com/send?phone=16264948645" icon={whatsapp} />
-                <Icon href="https://www.instagram.com/muromar/" icon={instagram} />
-                <Icon href="https://twitter.com/MurMarilynn" icon={twitter} />
-                <br />
-                Ivan – &nbsp;
-                <Icon href="https://api.whatsapp.com/send?phone=16263847075" icon={whatsapp} />
-                <Icon href="https://www.instagram.com/ivunortiz/" icon={instagram} />
+                <p>
+                  Marilynn – &nbsp;
+                  <Icon href="https://api.whatsapp.com/send?phone=16264948645" icon={whatsapp} />
+                  <Icon href="https://www.instagram.com/muromar/" icon={instagram} />
+                  <Icon href="https://twitter.com/MurMarilynn" icon={twitter} />
+                </p>
+                
+                <p>
+                  Ivan – &nbsp;
+                  <Icon href="https://api.whatsapp.com/send?phone=16263847075" icon={whatsapp} />
+                  <Icon href="https://www.instagram.com/ivunortiz/" icon={instagram} />
+                </p>
               </div>
             </div>
           </div>

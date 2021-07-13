@@ -235,6 +235,11 @@ body {
     }
 
     .travel-information-accordion {
+        a {
+            color: $white;
+            font-weight: 700;
+        }
+
         margin: 2rem 0;
         max-width: 50rem;
         width: 100%;
@@ -306,9 +311,11 @@ body {
     color: $secondary-black;
     text-align: center;
 
+    margin-bottom: 2rem;
+
     a {
         color: $secondary-black !important;
-        margin-right: 0.35rem;
+        margin-right: 1rem;
     }
 
     .header {
