@@ -104,7 +104,6 @@ const IndexPage = () => {
         
       
         {/* Ceremony */}
-        <div className="container">
           <div className="ceremony-section" id="ceremony-section">
             <div className="header">{t('nav-ceremony')}</div>
             <div className="ceremony-text">
@@ -114,7 +113,6 @@ const IndexPage = () => {
             </div>
             <a href="https://goo.gl/maps/Sn1mRjvKtQAyR4S18" rel='noopener noreferrer' target='_blank'><button type="button" className="btn btn-outline-dark">{t('get-directions')}</button></a>
           </div>
-        </div>
         
         {/* Venue */}
         <div className="venue-section" id="venue-section">

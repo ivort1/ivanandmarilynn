@@ -130,9 +130,8 @@ body {
     @include flexbox-column-center;
 
     background-image: url('/catedral.webp');
-    background-position: 60% 0%;
+    background-position: 45% 0%;
     background-repeat: no-repeat;
-    background-size: cover;
     height: 40vh;
     text-align: center;
     width: 100%;
@@ -330,5 +329,12 @@ body {
             color: $secondary-black !important;
             margin-right: 1rem;
         }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .ceremony-section {
+        background-position: 55% 0%;
+        background-size: cover;
     }
 }
