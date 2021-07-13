@@ -17,7 +17,6 @@ import FrequentlyAskedQuestion from '../../components/FrequentlyAskedQuestion';
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faMoneyBillWave, faPassport, faPlane } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faInstagram, faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const IndexPage = () => {
@@ -31,7 +30,6 @@ const IndexPage = () => {
   const plane = <FontAwesomeIcon icon={faPlane} />
   const passport = <FontAwesomeIcon icon={faPassport} />
   const money = <FontAwesomeIcon icon={faMoneyBillWave} />
-  const envelope = <FontAwesomeIcon icon={faEnvelope} />
   const instagram = <FontAwesomeIcon icon={faInstagram} />
   const whatsapp = <FontAwesomeIcon icon={faWhatsapp} />
   const twitter = <FontAwesomeIcon icon={faTwitter} />
@@ -133,67 +131,70 @@ const IndexPage = () => {
           <a href="https://goo.gl/maps/GAgqjdhfd7J6xazu9" rel='noopener noreferrer' target='_blank'><button type="button" className="btn btn-outline-dark">{t('get-directions')}</button></a>
 
           {/* <img alt="Casa Grande" src="/casa_grande.webp" /> */}
-          <div className="custom-shape-divider-bottom-1625981325">
-              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                  <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
-              </svg>
-          </div>     
         </div>
 
         {/* Travel Information */}
         <div className="travel-information-section" id="travel-information-section">
-          <div className="header">{t('nav-travel-information')}</div>
-          <div className="row">
-            <Card
-              cardTitle={t('travel-information-airport-header')}
-              cardText={t('travel-information-airport')}
-              href="https://www.google.com/maps/place/General+Francisco+Mujica+International+Airport/@19.7693433,-101.1741037,12z/data=!3m1!5s0x842d19aa987ab5e7:0xccb880dbf3843650!4m5!3m4!1s0x842d18fe1cff6a55:0xd460e1495d49a9a0!8m2!3d19.8464645!4d-101.0281372"
-              icon={plane}
-              buttonText="Google Maps" />
-
-            <Card 
-              cardTitle={t('travel-information-passport-header')}
-              cardText={t('travel-information-passport')}
-              href="https://travel.state.gov/content/travel/en/passports.html"
-              icon={passport}
-              buttonText={t('travel-information-passport-button')} />
-
-            <Card 
-              cardTitle={t('travel-information-currency-header')}
-              cardText={t('travel-information-currency')}
-              href="https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=MXN"
-              icon={money}
-              buttonText={t('travel-information-currency-button')} />
+          <div class="custom-shape-divider-top-1626207047">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+              </svg>
           </div>
 
-          <div className="travel-information-accordion">
-            <div className="accordion accordion-flush" id="accordionFlushExample">
-              <Accordion 
-                accordionButtonText={t('travel-information-faq-question1')}
-                accordionBodyText={<Trans i18nKey="travel-information-faq-answer1" t={t} components={[<LinkText href="https://goo.gl/maps/JtN8Y8ZyaAmdpYzD7" />]} />}
-                number="One" />
+          <div className="travel-information-body">
+            <div className="header">{t('nav-travel-information')}</div>
+            <div className="row">
+              <Card
+                cardTitle={t('travel-information-airport-header')}
+                cardText={t('travel-information-airport')}
+                href="https://www.google.com/maps/place/General+Francisco+Mujica+International+Airport/@19.7693433,-101.1741037,12z/data=!3m1!5s0x842d19aa987ab5e7:0xccb880dbf3843650!4m5!3m4!1s0x842d18fe1cff6a55:0xd460e1495d49a9a0!8m2!3d19.8464645!4d-101.0281372"
+                icon={plane}
+                buttonText="Google Maps" />
 
-              <Accordion
-                accordionButtonText={t('travel-information-faq-question2')}
-                accordionBodyText={<Trans i18nKey="travel-information-faq-answer2" t={t} components={[<LinkText href="https://goo.gl/maps/JtN8Y8ZyaAmdpYzD7" />, <LinkText href="https://goo.gl/maps/zgaMNZWwjNVA5Yxt7" />]} />}
-                number="Two" />
+              <Card 
+                cardTitle={t('travel-information-passport-header')}
+                cardText={t('travel-information-passport')}
+                href="https://travel.state.gov/content/travel/en/passports.html"
+                icon={passport}
+                buttonText={t('travel-information-passport-button')} />
 
-              <Accordion 
-                accordionButtonText={t('travel-information-faq-question3')}
-                accordionBodyText={<Trans i18nKey="travel-information-faq-answer3" t={t} components={[<LinkText href="https://g.page/Crossborderxpress?share" />, <LinkText href="https://www.crossborderxpress.com/en/" />]} />}
-                number="Three" />
+              <Card 
+                cardTitle={t('travel-information-currency-header')}
+                cardText={t('travel-information-currency')}
+                href="https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=MXN"
+                icon={money}
+                buttonText={t('travel-information-currency-button')} />
             </div>
+
+            <div className="travel-information-accordion">
+              <div className="accordion accordion-flush" id="accordionFlushExample">
+                <Accordion 
+                  accordionButtonText={t('travel-information-faq-question1')}
+                  accordionBodyText={<Trans i18nKey="travel-information-faq-answer1" t={t} components={[<LinkText href="https://goo.gl/maps/JtN8Y8ZyaAmdpYzD7" />]} />}
+                  number="One" />
+
+                <Accordion
+                  accordionButtonText={t('travel-information-faq-question2')}
+                  accordionBodyText={<Trans i18nKey="travel-information-faq-answer2" t={t} components={[<LinkText href="https://goo.gl/maps/JtN8Y8ZyaAmdpYzD7" />, <LinkText href="https://goo.gl/maps/zgaMNZWwjNVA5Yxt7" />]} />}
+                  number="Two" />
+
+                <Accordion 
+                  accordionButtonText={t('travel-information-faq-question3')}
+                  accordionBodyText={<Trans i18nKey="travel-information-faq-answer3" t={t} components={[<LinkText href="https://g.page/Crossborderxpress?share" />, <LinkText href="https://www.crossborderxpress.com/en/" />]} />}
+                  number="Three" />
+              </div>
+            </div>
+          </div>
+
+          <div class="custom-shape-divider-bottom-1626205541">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+              </svg>
           </div>
         </div>
 
         {/* FAQs */}
         <div className="faq-section" id="faq-section">
-          {/* <div className="custom-shape-divider-top-1625982302">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-              <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
-            </svg>
-          </div> */}
-          
           <div className="header">{t('nav-faqs')}</div>
 
           <FrequentlyAskedQuestion question={t('faq-question1')} answer={t('faq-answer1')} />
@@ -204,6 +205,7 @@ const IndexPage = () => {
 
         {/* Contact Us */}
         <div className="container">
+          <hr />
           <div className="contact-us-section" id="contact-us-section">
             <div className="header">{t('nav-contact-us')}</div>
             <div className="contact-us-body">

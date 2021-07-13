@@ -167,28 +167,6 @@ body {
 
         color: $secondary-black;
     }
-
-    .custom-shape-divider-bottom-1625981325 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-    }
-    
-    .custom-shape-divider-bottom-1625981325 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 35px;
-        transform: rotateY(180deg);
-    }
-    
-    .custom-shape-divider-bottom-1625981325 .shape-fill {
-        fill: #111111;
-    }
 }
 
 .travel-information-section {
@@ -196,11 +174,15 @@ body {
 
     background-color: #111111;
     color: $white;
+    position: relative;
 
     .header {
         color: #FFFFFF !important;
-        margin-top: 3rem;
         text-align: center;
+    }
+
+    .travel-information-body {
+        margin: 8rem 0;
     }
 
     .row {
@@ -240,7 +222,6 @@ body {
             font-weight: 700;
         }
 
-        margin: 2rem 0;
         max-width: 50rem;
         width: 100%;
 
@@ -254,6 +235,48 @@ body {
             color: $white;
         }
     }
+
+    .custom-shape-divider-top-1626207047 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1626207047 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 90px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-top-1626207047 .shape-fill {
+        fill: #FFFFFF;
+    }
+
+    .custom-shape-divider-bottom-1626205541 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1626205541 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 90px;
+    }
+    
+    .custom-shape-divider-bottom-1626205541 .shape-fill {
+        fill: #FFFFFF;
+    }
 }
 
 .faq-section {
@@ -262,14 +285,15 @@ body {
     position: relative;
     text-align: center;
 
-    .header {
-        margin-top: 5rem;
-    }
+    margin: 3rem 0;
 
     .faq-body {
-        margin-bottom: 2rem;
         max-width: 50rem;
         padding: 0 1rem;
+    }
+
+    .faq-body:not(:last-child) {
+        margin-bottom: 2rem;
     }
 
     .faq-question {
@@ -282,52 +306,29 @@ body {
     .faq-answer {
         color: $secondary-black;
     }
-
-    .custom-shape-divider-top-1625982302 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-    }
-    
-    .custom-shape-divider-top-1625982302 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 35px;
-    }
-    
-    .custom-shape-divider-top-1625982302 .shape-fill {
-        fill: #111111;
-    }
 }
 
 .contact-us-section {
     @extend %flexbox-column;
 
-    border-top: solid 1px $gray;
     color: $secondary-black;
     text-align: center;
 
-    margin-bottom: 2rem;
-
-    a {
-        color: $secondary-black !important;
-        margin-right: 1rem;
-    }
-
-    .header {
-        margin-top: 2rem;
-    }
+    margin: 3rem 0;
 
     .contact-us-body {
-        div, .btn {
+        div:not(:last-child), .btn {
             margin-bottom: 2rem;
         }
 
         max-width: 50rem;
         padding: 0 1rem;
+    }
+
+    .contact-us-individual {
+        a {
+            color: $secondary-black !important;
+            margin-right: 1rem;
+        }
     }
 }
