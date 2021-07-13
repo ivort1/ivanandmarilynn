@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.ivanandmarilynn-bw.netlify.app",
-    title: "Ivan and Marilynn",
+    title: "Ivan and Marilynn | Our Wedding",
   },
   plugins: [
     "gatsby-plugin-sass",

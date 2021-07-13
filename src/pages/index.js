@@ -149,7 +149,7 @@ const IndexPage = () => {
               cardText={t('travel-information-passport')}
               href="https://travel.state.gov/content/travel/en/passports.html"
               icon={passport}
-              buttonText={t('travel-information-button')} />
+              buttonText={t('travel-information-passport-button')} />
 
             <Card 
               cardTitle={t('travel-information-currency-header')}
