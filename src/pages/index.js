@@ -5,7 +5,7 @@ import { graphql } from "gatsby";
 import {useI18next ,useTranslation} from 'gatsby-plugin-react-i18next';
 
 import "../../scss/main.scss";
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+// import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
 // Components
 import Accordion from '../../components/Accordion';
