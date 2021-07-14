@@ -1,5 +1,9 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import { graphql } from 'gatsby';
+
+// CSS
+import "../../scss/main.scss";
 
 // i18Next
 import {useTranslation} from 'gatsby-plugin-react-i18next';
@@ -13,6 +17,11 @@ const FindYourSeat = () => {
 
     return(
         <main>
+            <Helmet>
+                {/* Bootstrap */}
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            </Helmet>
+
             <div className="container">
                 <div className="find-your-seat-section">
                     <div className="header">{t('find-your-seat-title')}</div>

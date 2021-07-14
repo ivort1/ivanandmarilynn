@@ -72,10 +72,6 @@ body {
         box-shadow: 0 0 0 1px;
     }
 
-    .nav-item:not(:last-child) {
-        margin-right: 1rem;
-    }
-
     .d-flex {
         max-width: 15rem;
     }
@@ -363,5 +359,9 @@ body {
     .ceremony-section {
         background-position: 55% 0%;
         background-size: cover;
+    }
+
+    .nav-item:not(:last-child) {
+        margin-right: 1rem;
     }
 }
