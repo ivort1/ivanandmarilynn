@@ -1,0 +1,191 @@
+[
+    {"table_number":1, "first_name":"Lina", "last_name":"Ortiz"},
+    {"table_number":1, "first_name":"Maria", "last_name":"Ortiz"},
+    {"table_number":1, "first_name":"Belen", "last_name":"Ortiz"},
+    {"table_number":1, "first_name":"Jesus", "last_name":"Ortiz"},
+    {"table_number":1, "first_name":"Alejandra", "last_name":"Rodriguez"},
+    {"table_number":1, "first_name":"Cayetano", "last_name":"Rodriguez"},
+    {"table_number":1, "first_name":"Lidia Tovar", "last_name":"Pineda"},
+    {"table_number":1, "first_name":"Celestino Ruiz", "last_name":"Garcia"},
+    {"table_number":1, "first_name":"Guadalupe", "last_name":"Hernandez"},
+    {"table_number":1, "first_name":"Humberto Ruiz", "last_name":"Tovar"},
+
+    {"table_number":2, "first_name":"Vicente", "last_name":"Ortiz"},
+    {"table_number":2, "first_name":"Elva", "last_name":"Perez"},
+    {"table_number":2, "first_name":"Lizbeth", "last_name":"Navarro"},
+    {"table_number":2, "first_name":"Ashley", "last_name":"Ortiz"},
+    {"table_number":2, "first_name":"Luis", "last_name":"Martinez"},
+    {"table_number":2, "first_name":"Nanci", "last_name":"Perez"},
+    {"table_number":2, "first_name":"Laurentino", "last_name":"Ortiz"},
+    {"table_number":2, "first_name":"Roberto", "last_name":"Ortiz Tapia"},
+    {"table_number":2, "first_name":"Guillermina", "last_name":"Ortiz"},
+    {"table_number":2, "first_name":"Ira", "last_name":"Tapia"},
+
+    {"table_number":3, "first_name":"Martha", "last_name":"Zapata"},
+    {"table_number":3, "first_name":"Rogelio", "last_name":"Zapata"},
+    {"table_number":3, "first_name":"Andrea", "last_name":"Zapata"},
+    {"table_number":3, "first_name":"Teresa", "last_name":"Carlos"},
+    {"table_number":3, "first_name":"Ramon", "last_name":"Carlos"},
+    {"table_number":3, "first_name":"Ana", "last_name":"Lomeli"},
+    {"table_number":3, "first_name":"Eugenio", "last_name":"Lomeli"},
+    {"table_number":3, "first_name":"Blanca", "last_name":"Gonzalez"},
+    {"table_number":3, "first_name":"Eduardo", "last_name":"Gonzalez"},
+
+    {"table_number":4, "first_name":"Rocio", "last_name":"Cardenas"},
+    {"table_number":4, "first_name":"Lucy", "last_name":"Cardenas"},
+    {"table_number":4, "first_name":"Luis Alberto", "last_name":"Vazquez"},
+    {"table_number":4, "first_name":"Emilio", "last_name":"Vazquez"},
+    {"table_number":4, "first_name":"Ana", "last_name":"Cardenas"},
+    {"table_number":4, "first_name":"Jorge", "last_name":"Ramos"},
+    {"table_number":4, "first_name":"Sofia", "last_name":"Ramos Cardenas"},
+    {"table_number":4, "first_name":"Paulina", "last_name":"Ramos Cardenas"},
+    {"table_number":4, "first_name":"Carolina", "last_name":"Ramos Cardenas"},
+
+    {"table_number":6, "first_name":"Carmen", "last_name":"Felix"},
+    {"table_number":6, "first_name":"Claudia Gabriela", "last_name":"Rojo"},
+    {"table_number":6, "first_name":"Teresa", "last_name":"Cardenas"},
+    {"table_number":6, "first_name":"Sergio", "last_name":"Duran"},
+    {"table_number":6, "first_name":"Gerardo", "last_name":"Ortiz"},
+    {"table_number":6, "first_name":"Lourdes", "last_name":"Ortiz"},
+    {"table_number":6, "first_name":"Rafael", "last_name":"Ortiz Jr"},
+    {"table_number":6, "first_name":"Susana", "last_name":"Ortiz"},
+
+    {"table_number":7, "first_name":"Rafael", "last_name":"Ortiz"},
+    {"table_number":7, "first_name":"Socorro", "last_name":"Ortiz"},
+    {"table_number":7, "first_name":"Laura", "last_name":"Ortiz"},
+    {"table_number":7, "first_name":"Marco Antonio", "last_name":"Vidauri"},
+    {"table_number":7, "first_name":"Miranda", "last_name":"Ortiz"},
+    {"table_number":7, "first_name":"Estela", "last_name":"Ortiz"},
+    {"table_number":7, "first_name":"Ana Maria", "last_name":"Ayala"},
+
+    {"table_number":9, "first_name":"Daniel", "last_name":"Muro"},
+    {"table_number":9, "first_name":"Graciela", "last_name":"Muro"},
+    {"table_number":9, "first_name":"Claudia", "last_name":"Muro"},
+    {"table_number":9, "first_name":"Heriberto", "last_name":"Muro"},
+    {"table_number":9, "first_name":"Daniel (Danny)", "last_name":"Muro"},
+    {"table_number":9, "first_name":"Maribel", "last_name":"Lugo"},
+    {"table_number":9, "first_name":"Eric", "last_name":"Lugo"},
+    {"table_number":9, "first_name":"Cindy", "last_name":"Lugo"},
+    {"table_number":9, "first_name":"Andrew", "last_name":"Silva"},
+    {"table_number":9, "first_name":"Olivia", "last_name":"Muro"},
+
+    {"table_number":10, "first_name":"Ramiro", "last_name":"Ortiz"},
+    {"table_number":10, "first_name":"Angelica", "last_name":"Ortiz"},
+    {"table_number":10, "first_name":"Natalie", "last_name":"Ortiz"},
+    {"table_number":10, "first_name":"Cesar", "last_name":"Ortiz"},
+    {"table_number":10, "first_name":"Eileen", "last_name":"Alvarez"},
+    {"table_number":10, "first_name":"Angel", "last_name":"Ortiz"},
+    {"table_number":10, "first_name":"Alyssa", "last_name":"Lozano"},
+    {"table_number":10, "first_name":"Mariana", "last_name":"Ortiz"},
+    {"table_number":10, "first_name":"Andrea", "last_name":"Ramirez"},
+    {"table_number":10, "first_name":"Sophia", "last_name":"Sanchez"},
+
+    {"table_number":11, "first_name":"Jose", "last_name":"Sanchez"},
+    {"table_number":11, "first_name":"Sonia", "last_name":"Sanchez"},
+    {"table_number":11, "first_name":"Noah", "last_name":"Sanchez"},
+    {"table_number":11, "first_name":"Olivia", "last_name":"Sanchez"},
+    {"table_number":11, "first_name":"Jose Luis", "last_name":"Sanchez"},
+    {"table_number":11, "first_name":"Marisela", "last_name":"Sanchez"},
+    {"table_number":11, "first_name":"Adriana", "last_name":"Cardenas"},
+    {"table_number":11, "first_name":"Ramon", "last_name":"Ramirez"},
+    {"table_number":11, "first_name":"Adrian", "last_name":"Ramirez"},
+    {"table_number":11, "first_name":"Daisy", "last_name":"Ramirez"},
+
+    {"table_number":13, "first_name":"Rogelio", "last_name":"Ortiz"},
+    {"table_number":13, "first_name":"Jonathan", "last_name":"Ortiz"},
+    {"table_number":13, "first_name":"Roger", "last_name":"Ortiz"},
+    {"table_number":13, "first_name":"Eduardo", "last_name":"Bajo"},
+    {"table_number":13, "first_name":"Fryda", "last_name":"Bernal"},
+    {"table_number":13, "first_name":"Christina", "last_name":"Ortiz"},
+    {"table_number":13, "first_name":"Pablo", "last_name":"Gonzalez"},
+    {"table_number":13, "first_name":"Llarely", "last_name":"Ortiz"},
+    {"table_number":13, "first_name":"Michael", "last_name":"Marquez"},
+    {"table_number":13, "first_name":"Angel", "last_name":"Lopez"},
+
+    {"table_number":15, "first_name":"Marcos", "last_name":"Sandoval"},
+    {"table_number":15, "first_name":"Maria", "last_name":"Sandoval"},
+    {"table_number":15, "first_name":"Marco Antonio", "last_name":"Sandoval"},
+    {"table_number":15, "first_name":"Marisol", "last_name":"Sandoval"},
+    {"table_number":15, "first_name":"Leticia", "last_name":"Cardenas"},
+    {"table_number":15, "first_name":"Jesus", "last_name":"Gonzalez"},
+    {"table_number":15, "first_name":"Vanessa", "last_name":"Gonzalez"},
+    {"table_number":15, "first_name":"Michael", "last_name":"Gonzalez"},
+    {"table_number":15, "first_name":"Christopher", "last_name":"Gonzalez"},
+    {"table_number":15, "first_name":"Jessica", "last_name":"Martinez"},
+
+    {"table_number":17, "first_name":"Miguel Angel", "last_name":"Cardenas"},
+    {"table_number":17, "first_name":"Luis Enrique", "last_name":"Cardenas"},
+    {"table_number":17, "first_name":"Daniela", "last_name":"Ruano"},
+    {"table_number":17, "first_name":"Gabriela", "last_name":"Cardenas"},
+    {"table_number":17, "first_name":"Emanuel", "last_name":"Cardenas"},
+    {"table_number":17, "first_name":"Gabriel", "last_name":"Cardenas"},
+    {"table_number":17, "first_name":"Cindy", "last_name":"Cardenas"},
+    {"table_number":17, "first_name":"Maxi", "last_name":"Reygoza"},
+    {"table_number":17, "first_name":"Alexia", "last_name":"Arriaga"},
+    {"table_number":17, "first_name":"Jessica", "last_name":"Cardenas"},
+
+    {"table_number":18, "first_name":"Martin", "last_name":"Espinoza"},
+    {"table_number":18, "first_name":"Veronica", "last_name":"Cortes"},
+    {"table_number":18, "first_name":"Miguel", "last_name":"Espinoza"},
+    {"table_number":18, "first_name":"Martin", "last_name":"Espinoza Jr."},
+    {"table_number":18, "first_name":"Rafael", "last_name":"Espinoza"},
+    {"table_number":18, "first_name":"Maria del Carmen", "last_name":"Espinoza Gutierrez"},
+    {"table_number":18, "first_name":"Karina", "last_name":"Martinez Espinoza"},
+    {"table_number":18, "first_name":"Rafael", "last_name":"Guillen"},
+    {"table_number":18, "first_name":"David", "last_name":"Magana"}
+]
+
+import React, { useMemo } from 'react';
+
+import { useTable } from 'react-table';
+import SeatingChartData from '../containers/SeatingChartData.json';
+import { Columns } from './Columns';
+
+const ReactTable = () => {
+
+    const columns = useMemo(() => Columns, [])
+    const data = useMemo(() => SeatingChartData, [])
+
+    const tableInstance =  useTable({
+        columns,
+        data
+    })
+
+    const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = tableInstance
+
+    return(
+        <table className="table table-sm table-striped" {...getTableProps()}>
+            <thead>
+                {
+                    headerGroups.map((headerGroup) => (
+                        <tr {...headerGroup.getHeaderGroupProps()}>
+                            {
+                                headerGroup.headers.map((column) => (
+                                    <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+                                ))
+                            }
+                        </tr>
+                    ))
+                }
+            </thead>
+            <tbody {...getTableBodyProps()}>
+                {
+                    rows.map((row) => {
+                        prepareRow(row)
+                        return (
+                            <tr {...row.getRowProps()}>
+                                {
+                                    row.cells.map((cell) => {
+                                        return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
+                                    })
+                                }
+                            </tr> 
+                        )
+                    })
+                }
+            </tbody>
+        </table>
+    )
+}
+
+export default ReactTable

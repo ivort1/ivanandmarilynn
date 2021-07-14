@@ -79,7 +79,7 @@ const IndexPage = () => {
                 <ul className="languages navbar-nav">
                   {languages.map((lng) => (
                     <li className="nav-item" key={lng}>
-                      <a className="nav-link" href="#" onClick={(e) => {e.preventDefault(); changeLanguage(lng);}}>{lng}</a>
+                      <button className="nav-link btn btn-link" onClick={(e) => {e.preventDefault(); changeLanguage(lng);}} type="button">{lng}</button>
                     </li>
                   ))}
                 </ul>
@@ -98,7 +98,7 @@ const IndexPage = () => {
               <br />
               Morelia, Michoacán, México
             </div>
-            <button type="button" className="btn btn-dark">{t('home-find-your-seat')}</button>
+            <a href="/find-your-seat" className="btn btn-dark btn-lg" tabindex="-1" role="button">{t('home-find-your-seat')}</a>
           </div>
         </div>
         
@@ -133,9 +133,9 @@ const IndexPage = () => {
 
         {/* Travel Information */}
         <div className="travel-information-section" id="travel-information-section">
-          <div class="custom-shape-divider-top-1626207047">
+          <div className="custom-shape-divider-top-1626207047">
               <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                  <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                  <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
               </svg>
           </div>
 
@@ -184,9 +184,9 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <div class="custom-shape-divider-bottom-1626205541">
+          <div className="custom-shape-divider-bottom-1626205541">
               <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                  <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                  <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
               </svg>
           </div>
         </div>

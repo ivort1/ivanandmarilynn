@@ -72,6 +72,10 @@ body {
         box-shadow: 0 0 0 1px;
     }
 
+    .nav-item:not(:last-child) {
+        margin-right: 1rem;
+    }
+
     .d-flex {
         max-width: 15rem;
     }
@@ -180,6 +184,11 @@ body {
         text-align: center;
     }
 
+    .btn {
+        max-width: 25rem;
+        width: 100%;
+    }
+
     .travel-information-body {
         margin: 8rem 0;
     }
@@ -208,7 +217,7 @@ body {
 
         .card-body {
             @extend %flexbox-column;
-            align-items: stretch;
+            align-items: center;
             justify-content: space-between;
 
             padding: 1rem 0;
@@ -329,6 +338,24 @@ body {
             color: $secondary-black !important;
             margin-right: 1rem;
         }
+    }
+}
+
+.find-your-seat-section {
+    margin: 3rem 0;
+
+    div {
+        margin-bottom: 2rem;
+    }
+
+    .body {
+        color: $secondary-black;
+        max-width: 50rem;
+        width: 100%;
+    }
+
+    .table {
+        color: $secondary-black;
     }
 }
 
