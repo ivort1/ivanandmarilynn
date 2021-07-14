@@ -355,12 +355,17 @@ body {
     }
 }
 
+// Mobile screen
 @media screen and (max-width: 960px) {
     .ceremony-section {
         background-position: 55% 0%;
         background-size: cover;
     }
 
+}
+
+// Desktop
+@media screen and (min-width: 960px) {
     .nav-item:not(:last-child) {
         margin-right: 1rem;
     }
