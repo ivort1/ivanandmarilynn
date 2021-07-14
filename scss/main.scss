@@ -283,7 +283,7 @@ body {
     }
 }
 
-.faq-section {
+.faqs-section {
     @include flexbox-column-center;
 
     position: relative;
@@ -352,6 +352,21 @@ body {
 
     .table {
         color: $secondary-black;
+    }
+
+    .go-back-button {
+        color: $secondary-black;
+        text-decoration: none;
+        transition: color 0.2 ease-out;
+	    -webkit-transition: color 0.2s ease-out;
+    }
+
+    .go-back-button:hover {
+        color: $primary-black;
+    }
+    
+    .go-back-icon {
+        margin-right: 0.5rem;
     }
 }
 

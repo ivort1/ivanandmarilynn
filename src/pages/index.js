@@ -56,22 +56,22 @@ const IndexPage = () => {
             <div className="container collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav text-center me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link" href="#home-section">{t('nav-home')}</a>
+                  <Link className="nav-link" to="/">{t('nav-home')}</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#ceremony-section">{t('nav-ceremony')}</a>
+                  <Link className="nav-link" to="/#ceremony-section">{t('nav-ceremony')}</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#venue-section">{t('nav-venue')}</a>
+                  <Link className="nav-link" to="/#venue-section">{t('nav-venue')}</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#travel-information-section">{t('nav-travel-information')}</a>
+                  <Link className="nav-link" to="/#travel-information-section">{t('nav-travel-information')}</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#faq-section">{t('nav-faqs')}</a>
+                  <Link className="nav-link" to="/#faqs-section">{t('nav-faqs')}</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact-us-section">{t('nav-contact-us')}</a>
+                  <Link className="nav-link" to="/#contact-us-section">{t('nav-contact-us')}</Link>
                 </li>
               </ul>
               <div className="language-select">
@@ -98,7 +98,7 @@ const IndexPage = () => {
               <br />
               Morelia, Michoacán, México
             </div>
-            <a href="/find-your-seat" className="btn btn-dark btn-lg" tabindex="-1" role="button">{t('home-find-your-seat')}</a>
+            <Link className="btn btn-dark btn-lg" role="button" to="/find-your-seat">{t('home-find-your-seat')}</Link>
           </div>
         </div>
         
@@ -192,7 +192,7 @@ const IndexPage = () => {
         </div>
 
         {/* FAQs */}
-        <div className="faq-section" id="faq-section">
+        <div className="faqs-section" id="faqs-section">
           <div className="header">{t('nav-faqs')}</div>
 
           <FrequentlyAskedQuestion question={t('faq-question1')} answer={t('faq-answer1')} />
