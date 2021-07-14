@@ -10,6 +10,7 @@ import {useTranslation} from 'gatsby-plugin-react-i18next';
 
 // Components
 import ReactTable from '../../components/ReactTable';
+import GoBackButton from '../../components/GoBackButton';
 
 const FindYourSeat = () => {
 
@@ -24,6 +25,8 @@ const FindYourSeat = () => {
 
             <div className="container">
                 <div className="find-your-seat-section">
+                    <GoBackButton />
+                    
                     <div className="header">{t('find-your-seat-title')}</div>
 
                     <div className="body">{t('find-your-seat-body')}</div>
