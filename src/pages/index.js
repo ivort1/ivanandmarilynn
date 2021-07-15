@@ -216,7 +216,6 @@ const IndexPage = () => {
                   Marilynn – &nbsp;
                   <Icon href="https://api.whatsapp.com/send?phone=16264948645" icon={whatsapp} />
                   <Icon href="https://www.instagram.com/muromar/" icon={instagram} />
-                  <Icon href="https://twitter.com/MurMarilynn" icon={twitter} />
                 </p>
                 
                 <p>
