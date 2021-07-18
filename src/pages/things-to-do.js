@@ -29,10 +29,11 @@ const ThingsToDo = () => {
 
             <div className="container">
                 <div className="subpage-section">
+                  
                   <GoBackButton />
+
                   <div className="header section">{t('travel-information-things-to-do-header')}</div>
 
-                  
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                       <TabPill
                         class="nav-link active"

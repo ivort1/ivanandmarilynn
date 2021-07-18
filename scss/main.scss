@@ -134,7 +134,7 @@ body {
     background-image: url('/catedral.webp');
     background-position: 45% 0%;
     background-repeat: no-repeat;
-    height: 42vh;
+    height: 30rem;
     text-align: center;
     width: 100%;
 
@@ -149,7 +149,7 @@ body {
 
     // background-color: $primary-black;
     // margin: 2rem 0;
-    height: 45vh;
+    height: 22rem;
     position: relative;
     text-align: center;
 
@@ -375,15 +375,18 @@ body {
 // Mobile screen
 @media screen and (max-width: 960px) {
     .ceremony-section {
-        background-position: 55% 0%;
+        background-position: 52% 0%;
         background-size: cover;
     }
-
 }
 
 // Desktop
 @media screen and (min-width: 960px) {
     .nav-item:not(:last-child) {
         margin-right: 1rem;
+    }
+
+    .ceremony-section {
+        height: 33rem;
     }
 }
