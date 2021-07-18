@@ -27,9 +27,9 @@ const FindYourSeat = () => {
                 <div className="subpage-section">
                     <GoBackButton />
                     
-                    <div className="header">{t('find-your-seat-title')}</div>
+                    <div className="header section">{t('find-your-seat-title')}</div>
 
-                    <div className="body">{t('find-your-seat-body')}</div>
+                    <div className="body section">{t('find-your-seat-body')}</div>
 
                     <div className="table-container">
                         <ReactTable />

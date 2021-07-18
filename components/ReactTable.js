@@ -25,7 +25,7 @@ const ReactTable = () => {
 
     return(
         <>
-            <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} />
+            <div className="section"><GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} /></div>
             
             <table className="table" {...getTableProps()}>
                 <thead>
