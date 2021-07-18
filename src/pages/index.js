@@ -16,8 +16,8 @@ import FrequentlyAskedQuestion from '../../components/FrequentlyAskedQuestion';
 
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe, faMoneyBillWave, faPassport, faPlane } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGlassCheers, faGlobe, faMoneyBillWave, faPassport, faPlane } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const IndexPage = () => {
   const { t } = useTranslation();
@@ -32,8 +32,8 @@ const IndexPage = () => {
   const money = <FontAwesomeIcon icon={faMoneyBillWave} />
   const instagram = <FontAwesomeIcon icon={faInstagram} />
   const whatsapp = <FontAwesomeIcon icon={faWhatsapp} />
-  const twitter = <FontAwesomeIcon icon={faTwitter} />
   const globe = <FontAwesomeIcon icon={faGlobe} />
+  const cheers = <FontAwesomeIcon icon={faGlassCheers} />
 
   return (
     <main>
@@ -162,6 +162,13 @@ const IndexPage = () => {
                 href="https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=MXN"
                 icon={money}
                 buttonText={t('travel-information-currency-button')} />
+
+              <Card 
+                cardTitle={t('travel-information-things-to-do-header')}
+                cardText={t('travel-information-things-to-do')}
+                href={"/things-to-do"}
+                icon={cheers}
+                buttonText={t('travel-information-things-to-do-button')} />
             </div>
 
             <div className="travel-information-accordion">

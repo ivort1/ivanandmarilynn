@@ -1,0 +1,47 @@
+.food-section {
+    .card-body {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .img-vertical {
+        display: none;
+    }
+}
+
+.subpage-section {
+    .nav-link {
+        color: #484848;
+    }
+
+    .nav-link:hover {
+        color: #111111;
+    }
+
+    .nav-link.active {
+        color: #fff;
+        background-color: #212529;
+    }
+}
+
+// Mobile screen
+@media screen and (max-width: 960px) {
+
+
+}
+
+// Desktop
+@media screen and (min-width: 768px) {
+
+    .food-section {
+        .img-horizontal {
+            display: none;
+        }
+
+        .img-vertical {
+            display: block;
+        }
+    }
+}

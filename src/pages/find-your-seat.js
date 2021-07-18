@@ -24,7 +24,7 @@ const FindYourSeat = () => {
             </Helmet>
 
             <div className="container">
-                <div className="find-your-seat-section">
+                <div className="subpage-section">
                     <GoBackButton />
                     
                     <div className="header">{t('find-your-seat-title')}</div>

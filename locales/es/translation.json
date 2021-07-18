@@ -23,6 +23,9 @@
     "travel-information-currency-header": "La moneda",
     "travel-information-currency": "La moneda en México es el Peso y el tipo de cambio suele ser de alrededor de $20 MXN por $1 USD.",
     "travel-information-currency-button": "Comprobar el tipo de cambio",
+    "travel-information-things-to-do-header": "Qué hacer en Morelia",
+    "travel-information-things-to-do": "Morelia es una ciudad vibrante con varios restaurantes y bares, museos, lugares para ir de compras y hermosas iglesias.",
+    "travel-information-things-to-do-button": "Descubre Morelia",
     "travel-information-faq-question1": "¿Cómo puedo llegar a mi hotel desde el aeropuerto?",
     "travel-information-faq-question2": "¿Dónde puedo intercambiar moneda?",
     "travel-information-faq-question3": "¿Primera vez que vuela desde Tijuana / San Diego?",
@@ -44,5 +47,16 @@
     "find-your-seat-search-for-name": "Nombre o mesa",
     "find-your-seat-table-number": "Mesa",
     "find-your-seat-first-name": " Nombre",
-    "find-your-seat-last-name": "Apellido"
+    "find-your-seat-last-name": "Apellido",
+    "things-to-do-places-to-eat-header": "Dónde comer",
+    "things-to-do-where-to-shop-header": "Dónde ir de compras",
+    "things-to-do-museums-header": "Museos",
+    "food-pane-la-soledad-text": "Restaurante de primera clase con cenas al aire libre tranquilas y serenas. Recomendamos pasar por el desayuno.",
+    "food-pane-taqueria-cuautla-text": "Nuestro lugar favorito de tacos en la ciudad que sirve deliciosos tacos con carne asada, al pastor, lengua, y nuestro favorito - chorizo.",
+    "food-pane-don-pepe-text": "Fantásticas carnitas servidas con tortillas, frijoles, jalapeños, guacamole y salsa.",
+    "food-pane-cafe-michelena-text": "Una pequeña cafetería con encanto que ofrece café, pan, muffins y menús estándar de desayuno y almuerzo junto con asientos interiores o exteriores.",
+    "shopping-pane-museo-dulces-text": "Uno de los lugares más populares en Morelia, este museo vende deliciosos dulces de la época colonial y también demuestra cómo se hicieron esos dulces durante ese período de tiempo.",
+    "shopping-pane-mercado-dulces-text": "Un mercado que vende una variedad de artículos que incluyen dulces, artículos religiosos, ropa, juguetes y recuerdos.",
+    "shopping-pane-san-francisco-text": "Dentro de la iglesia encontrará un mercado con una serie de diferentes artículos a la venta.",
+    "shopping-pane-mercado-independencia-text": "Otro mercado pero de un tamaño mucho mayor. Venden todo lo que se te ocurra, incluyendo zapatos, ropa, comida, fruta, dulces, flores, sombreros, recuerdos y mucho más."
 }

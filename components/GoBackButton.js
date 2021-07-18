@@ -15,7 +15,7 @@ const GoBackButton = () => {
     const backArrow = <span className="go-back-icon"><FontAwesomeIcon icon={faAngleLeft} /></span>
 
     return(
-      <div>
+      <div className="section">
         <Link className="go-back-button" to="/">{backArrow}{t('go-back-button')}</Link>
       </div>
     )
