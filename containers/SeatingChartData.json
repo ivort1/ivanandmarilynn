@@ -190,6 +190,16 @@
         "last_name": "Ramos Cardenas"
     },
     {
+        "table_number": 4,
+        "first_name": "Carmen",
+        "last_name": "Felix"
+    },
+    {
+        "table_number": 4,
+        "first_name": "Claudia Gabriela",
+        "last_name": "Rojo"
+    },
+    {
         "table_number": 5,
         "first_name": "Martha",
         "last_name": "Zapata"
@@ -813,16 +823,6 @@
         "table_number": 17,
         "first_name": "Angel",
         "last_name": "Lopez"
-    },
-    {
-        "table_number": 17,
-        "first_name": "Carmen",
-        "last_name": "Felix"
-    },
-    {
-        "table_number": 17,
-        "first_name": "Claudia Gabriela",
-        "last_name": "Rojo"
     },
     {
         "table_number": 18,

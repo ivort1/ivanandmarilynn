@@ -4,11 +4,11 @@ import React, { useMemo } from 'react';
 import { useTable, useSortBy, useGlobalFilter } from 'react-table';
 import SeatingChartData from '../containers/SeatingChartData.json';
 import { Columns } from './Columns';
+import GlobalFilter from './GlobalFilter';
 
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSort, faCaretUp, faCaretDown } from '@fortawesome/free-solid-svg-icons';
-import GlobalFilter from './GlobalFilter';
 
 const ReactTable = () => {
 
