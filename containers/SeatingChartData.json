@@ -190,16 +190,6 @@
         "last_name": "Ramos Cardenas"
     },
     {
-        "table_number": 4,
-        "first_name": "Teresa",
-        "last_name": "Cardenas"
-    },
-    {
-        "table_number": 4,
-        "first_name": "Sergio",
-        "last_name": "Duran"
-    },
-    {
         "table_number": 5,
         "first_name": "Martha",
         "last_name": "Zapata"
@@ -395,6 +385,11 @@
         "last_name": "Ortiz"
     },
     {
+        "table_number": 8,
+        "first_name": "Elpidio",
+        "last_name": "Ortiz"
+    },
+    {
         "table_number": 9,
         "first_name": "Yazmin",
         "last_name": "Cabral"
@@ -433,16 +428,6 @@
         "table_number": 9,
         "first_name": "Araceli",
         "last_name": "Moreno"
-    },
-    {
-        "table_number": 9,
-        "first_name": "Gabby",
-        "last_name": "Arias"
-    },
-    {
-        "table_number": 9,
-        "first_name": "Benny",
-        "last_name": "Arias"
     },
     {
         "table_number": 10,
@@ -838,31 +823,6 @@
         "table_number": 17,
         "first_name": "Claudia Gabriela",
         "last_name": "Rojo"
-    },
-    {
-        "table_number": 18,
-        "first_name": "Martin",
-        "last_name": "Espinoza"
-    },
-    {
-        "table_number": 18,
-        "first_name": "Veronica",
-        "last_name": "Cortes"
-    },
-    {
-        "table_number": 18,
-        "first_name": "Miguel",
-        "last_name": "Espinoza"
-    },
-    {
-        "table_number": 18,
-        "first_name": "Martin",
-        "last_name": "Espinoza Jr."
-    },
-    {
-        "table_number": 18,
-        "first_name": "Rafael",
-        "last_name": "Espinoza"
     },
     {
         "table_number": 18,
