@@ -31,6 +31,8 @@ const FindYourSeat = () => {
 
                     <div className="body section">{t('find-your-seat-body')}</div>
 
+                    <div className="section" style={{color:'#cecece', fontStyle:'italic'}}>{t('find-your-seat-updated-on')}</div>
+
                     <div className="table-container">
                         <ReactTable />
                     </div>
