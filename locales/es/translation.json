@@ -8,6 +8,7 @@
     "nav-contact-us": "Contáctanos",
     "go-back-button": "Regresar",
     "get-directions": "Obtener direcciones",
+    "more-information": "Más información",
     "home-header": "La Boda de Marilynn & Ivan",
     "home-date": "Viernes, 30 de julio 2021",
     "home-find-your-seat": "Buscar su asiento",
@@ -44,7 +45,7 @@
     "contact-us-button": "Envíenos un email",
     "find-your-seat-title": "Buscar su mesa",
     "find-your-seat-body": "Recuerde que no se permitirá la entrada en el lugar de la recepción a nadie que no aparezca en la lista de invitados. Cada asiento y comida se contabilizan estrictamente y los nombres se comprobarán en la entrada. Gracias por su comprensión.",
-    "find-your-seat-updated-on": "Actualizado el sábado, 24 de julio",
+    "find-your-seat-updated-on": "Actualizado el miércoles, 28 de julio",
     "find-your-seat-search-for-name": "Nombre o mesa",
     "find-your-seat-table-number": "Mesa",
     "find-your-seat-first-name": " Nombre",
@@ -59,5 +60,8 @@
     "shopping-pane-museo-dulces-text": "Uno de los lugares más populares en Morelia, este museo vende deliciosos dulces de la época colonial y también demuestra cómo se hicieron esos dulces durante ese período de tiempo.",
     "shopping-pane-mercado-dulces-text": "Un mercado que vende una variedad de artículos que incluyen dulces, artículos religiosos, ropa, juguetes y recuerdos.",
     "shopping-pane-san-francisco-text": "Dentro de la iglesia encontrará un mercado con una serie de diferentes artículos a la venta.",
-    "shopping-pane-mercado-independencia-text": "Otro mercado pero de un tamaño mucho mayor. Venden todo lo que se te ocurra, incluyendo zapatos, ropa, comida, fruta, dulces, flores, sombreros, recuerdos y mucho más."
+    "shopping-pane-mercado-independencia-text": "Otro mercado pero de un tamaño mucho mayor. Venden todo lo que se te ocurra, incluyendo zapatos, ropa, comida, fruta, dulces, flores, sombreros, recuerdos y mucho más.",
+    "museum-pane-casa-morelos-text": "Casa neoclásica y lugar de nacimiento de José María Morelos, de quien la ciudad de Morelia lleva el nombre, con arte, reliquias, exposiciones y animatrónica.",
+    "museum-pane-museo-regional-michoacano-text": "Las exposiciones arqueológicas, históricas y artísticas se exhiben en un majestuoso palacio barroco del siglo XVIII.",
+    "museum-pane-bicicom-morelia-text": "¡Hace un recorrido por la ciudad mientras montas en bicicleta con un grupo! Más información se puede encontrar en la plaza junto a la catedral."
 }

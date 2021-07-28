@@ -8,6 +8,7 @@
     "nav-contact-us": "Contact Us",
     "go-back-button": "Go back",
     "get-directions": "Get directions",
+    "more-information": "More information",
     "home-header": "Marilynn & Ivan's Wedding",
     "home-date": "Friday, July 30, 2021",
     "home-find-your-seat": "Find your seat",
@@ -44,7 +45,7 @@
     "contact-us-button": "Send us an email",
     "find-your-seat-title": "Find your table",
     "find-your-seat-body": "Please remember that anyone not on the guest list will not be allowed into the venue. Every single seat and meal is strictly accounted for and names will be checked at the entrance. Thank you for your understanding.",
-    "find-your-seat-updated-on": "Updated on Saturday, July 24",
+    "find-your-seat-updated-on": "Updated on Wednesday, July 28",
     "find-your-seat-search-for-name": "Name or table",
     "find-your-seat-table-number": "Table",
     "find-your-seat-first-name": " First name",
@@ -53,11 +54,14 @@
     "things-to-do-where-to-shop-header": "Where to shop",
     "things-to-do-museums-header": "Museums and tours",
     "food-pane-cafe-michelena-text": "A charming little cafe that offers coffee, bread, muffins, and standard breakfast and lunch menus along with either indoor or outdoor seating.",
-    "food-pane-la-soledad-text": "Top notch restaurant with peaceful and serene outdoor dining. We recommenend stopping by for breakfast.",
+    "food-pane-la-soledad-text": "Top notch restaurant with peaceful and serene outdoor dining. We recommend stopping by for breakfast.",
     "food-pane-don-pepe-text": "Fantastic carnitas served with tortillas, beans, jalapenos, guacamole, and salsa.",
     "food-pane-taqueria-cuautla-text": "Our favorite taco spot in the city that serves delicious tacos with carne asada, al pastor, lengua, and our favorite - chorizo. They open at 6:30PM.",
     "shopping-pane-museo-dulces-text": "One of the more popular spots in Morelia, this museum sells delicious candy from the colonial era and also demonstrates how that candy was made during that time period.",
     "shopping-pane-mercado-dulces-text": "A market that sells a variety of items including candy, religious articles, clothes, toys, and souvenirs.",
     "shopping-pane-san-francisco-text": "Inside of the church you'll find a marketplace with a number of different items for sale.",
-    "shopping-pane-mercado-independencia-text": "Another market but of a much larger size. They sell everything that you can think of including shoes, clothes, food, fruit, candy, flowers, hats, souvenirs, and much more. "
+    "shopping-pane-mercado-independencia-text": "Another market but of a much larger size. They sell everything that you can think of including shoes, clothes, food, fruit, candy, flowers, hats, souvenirs, and much more.",
+    "museum-pane-casa-morelos-text": "Neoclassical home & birthplace of José María Morelos, whom the city of Morelia is named after, with art, relics, exhibits & an animatronic.",
+    "museum-pane-museo-regional-michoacano-text": "Archaeological, historical & art exhibits displayed in a stately 18th-century baroque palace.",
+    "museum-pane-bicicom-morelia-text": "Take a tour of the city while riding a bicycle with a group! More information can be found in the plaza next to the cathedral."
 }
