@@ -1,26 +1,6 @@
 [
     {
         "table_number": 1,
-        "first_name": "Lina",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 1,
-        "first_name": "Maria",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 1,
-        "first_name": "Belen",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 1,
-        "first_name": "Jesus",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 1,
         "first_name": "Alejandra",
         "last_name": "Rodriguez"
     },
@@ -50,6 +30,16 @@
         "last_name": "Tovar"
     },
     {
+        "table_number": 1,
+        "first_name": "Antonio",
+        "last_name": "Ortiz Sosa"
+    },
+    {
+        "table_number": 1,
+        "first_name": "Elsa Ivonne",
+        "last_name": "Vargas Salvador"
+    },
+    {
         "table_number": 2,
         "first_name": "Estela",
         "last_name": "Ortiz"
@@ -58,26 +48,6 @@
         "table_number": 2,
         "first_name": "Ana Maria",
         "last_name": "Ayala"
-    },
-    {
-        "table_number": 2,
-        "first_name": "Gilberto",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 2,
-        "first_name": "Maria Elena",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 2,
-        "first_name": "Gilberto Angel",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 2,
-        "first_name": "Alan Alexander",
-        "last_name": "Ortiz"
     },
     {
         "table_number": 2,
@@ -100,6 +70,26 @@
         "last_name": "Rodriguez"
     },
     {
+        "table_number": 2,
+        "first_name": "Laurentino",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 2,
+        "first_name": "Roberto",
+        "last_name": "Ortiz Tapia"
+    },
+    {
+        "table_number": 2,
+        "first_name": "Guillermina",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 2,
+        "first_name": "Ira",
+        "last_name": "Tapia"
+    },
+    {
         "table_number": 3,
         "first_name": "Maria del Carmen",
         "last_name": "Espinoza Gutierrez"
@@ -118,6 +108,26 @@
         "table_number": 3,
         "first_name": "David",
         "last_name": "Magana"
+    },
+    {
+        "table_number": 3,
+        "first_name": "Gilberto",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 3,
+        "first_name": "Maria Elena",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 3,
+        "first_name": "Gilberto Angel",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 3,
+        "first_name": "Alan Alexander",
+        "last_name": "Ortiz"
     },
     {
         "table_number": 4,
@@ -191,6 +201,26 @@
     },
     {
         "table_number": 5,
+        "first_name": "Carolina",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 5,
+        "first_name": "Jennifer",
+        "last_name": "Alvarado"
+    },
+    {
+        "table_number": 5,
+        "first_name": "Luis",
+        "last_name": "Alvarado"
+    },
+    {
+        "table_number": 5,
+        "first_name": "Sabas",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 5,
         "first_name": "Luis",
         "last_name": "Martinez"
     },
@@ -198,31 +228,6 @@
         "table_number": 5,
         "first_name": "Nanci",
         "last_name": "Perez"
-    },
-    {
-        "table_number": 5,
-        "first_name": "Laurentino",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 5,
-        "first_name": "Roberto",
-        "last_name": "Ortiz Tapia"
-    },
-    {
-        "table_number": 5,
-        "first_name": "Guillermina",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 5,
-        "first_name": "Ira",
-        "last_name": "Tapia"
-    },
-    {
-        "table_number": 6,
-        "first_name": "Mariano",
-        "last_name": "Gonzalez"
     },
     {
         "table_number": 6,
@@ -321,16 +326,6 @@
     },
     {
         "table_number": 8,
-        "first_name": "Yazmin",
-        "last_name": "Cabral"
-    },
-    {
-        "table_number": 8,
-        "first_name": "Valentin",
-        "last_name": "Lopez"
-    },
-    {
-        "table_number": 8,
         "first_name": "Blanca",
         "last_name": "Carrillo"
     },
@@ -358,6 +353,26 @@
         "table_number": 8,
         "first_name": "Araceli",
         "last_name": "Moreno"
+    },
+    {
+        "table_number": 8,
+        "first_name": "Lina",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 8,
+        "first_name": "Maria",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 8,
+        "first_name": "Belen",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 8,
+        "first_name": "Jesus",
+        "last_name": "Ortiz"
     },
     {
         "table_number": 9,
@@ -626,11 +641,6 @@
     },
     {
         "table_number": 14,
-        "first_name": "David",
-        "last_name": "Andrade"
-    },
-    {
-        "table_number": 14,
         "first_name": "Martha",
         "last_name": "Vergara"
     },
@@ -643,11 +653,6 @@
         "table_number": 14,
         "first_name": "Anthony",
         "last_name": "Hernandez"
-    },
-    {
-        "table_number": 14,
-        "first_name": "Lorena",
-        "last_name": "Gonzalez"
     },
     {
         "table_number": 14,
@@ -728,11 +733,6 @@
         "table_number": 16,
         "first_name": "Llarely",
         "last_name": "Ortiz"
-    },
-    {
-        "table_number": 16,
-        "first_name": "Jennifer",
-        "last_name": "Alvarado"
     },
     {
         "table_number": 16,
