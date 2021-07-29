@@ -41,16 +41,6 @@
     },
     {
         "table_number": 2,
-        "first_name": "Estela",
-        "last_name": "Ortiz"
-    },
-    {
-        "table_number": 2,
-        "first_name": "Ana Maria",
-        "last_name": "Ayala"
-    },
-    {
-        "table_number": 2,
         "first_name": "Hugo",
         "last_name": "Mendez"
     },
@@ -636,11 +626,6 @@
     },
     {
         "table_number": 14,
-        "first_name": "Guillermo",
-        "last_name": "Herrera"
-    },
-    {
-        "table_number": 14,
         "first_name": "Martha",
         "last_name": "Vergara"
     },
@@ -651,18 +636,18 @@
     },
     {
         "table_number": 14,
-        "first_name": "Anthony",
-        "last_name": "Hernandez"
-    },
-    {
-        "table_number": 14,
         "first_name": "Isidoro",
         "last_name": "Vergara"
     },
     {
         "table_number": 14,
-        "first_name": "Racquel",
-        "last_name": "Vergara"
+        "first_name": "Estela",
+        "last_name": "Ortiz"
+    },
+    {
+        "table_number": 14,
+        "first_name": "Ana Maria",
+        "last_name": "Ayala"
     },
     {
         "table_number": 15,
