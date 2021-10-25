@@ -16,7 +16,7 @@ import FrequentlyAskedQuestion from '../../components/FrequentlyAskedQuestion';
 
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlassCheers, faGlobe, faMoneyBillWave, faPassport, faPlane } from '@fortawesome/free-solid-svg-icons';
+import { faGlassCheers, faGlobe, faMoneyBillWave, faPassport, faPlane, faCamera } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const IndexPage = () => {
@@ -34,6 +34,7 @@ const IndexPage = () => {
   const whatsapp = <FontAwesomeIcon icon={faWhatsapp} />
   const globe = <FontAwesomeIcon icon={faGlobe} />
   const cheers = <FontAwesomeIcon icon={faGlassCheers} />
+  const camera = <FontAwesomeIcon icon={faCamera} />
 
   return (
     <main>
@@ -88,6 +89,18 @@ const IndexPage = () => {
           </div>
         </nav>
 
+        
+        <div style={{backgroundColor: "#303030", color: "white", position: "sticky"}}>
+        <div className="container">
+          <div class="alert alert-dismissible fade show" role="alert">
+            
+              <span className="icon fa-lg" style={{marginRight: "1rem"}}>{camera}</span>
+               {t('photos-notification')}<Link className="photos-link" to="/photos">{t('notification-link')}</Link>!
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
         {/* Home */}
         <div className="container">
           <div className="home-section" id="home-section">
@@ -102,7 +115,6 @@ const IndexPage = () => {
           </div>
         </div>
         
-      
         {/* Ceremony */}
           <div className="ceremony-section" id="ceremony-section">
             <div className="header">{t('nav-ceremony')}</div>

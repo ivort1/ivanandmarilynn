@@ -68,7 +68,7 @@ body {
     border-style: solid;
 	border-color: transparent;
 	border-width: 0 0 0.1rem 0;
-    box-shadow: 0 0 2rem 0 $gray;
+    box-shadow: 0 0 0.5rem 0 $gray;
 
     .navbar-toggler:focus {
         box-shadow: 0 0 0 1px;
@@ -101,6 +101,14 @@ body {
             }
         }
     }
+}
+
+.photos-link {
+    color: #FFFFFF;
+}
+
+.photos-link:hover {
+    color: #FFFFFF;
 }
 
 .home-section {
