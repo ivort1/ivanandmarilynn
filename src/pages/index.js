@@ -16,8 +16,9 @@ import FrequentlyAskedQuestion from '../../components/FrequentlyAskedQuestion';
 
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlassCheers, faGlobe, faMoneyBillWave, faPassport, faPlane, faCamera } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faGlassCheers, faGlobe, faMoneyBillWave, faPassport, faPlane, faCamera, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
+import { faInstagram, faWhatsapp, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const IndexPage = () => {
   const { t } = useTranslation();
@@ -35,6 +36,10 @@ const IndexPage = () => {
   const globe = <FontAwesomeIcon icon={faGlobe} />
   const cheers = <FontAwesomeIcon icon={faGlassCheers} />
   const camera = <FontAwesomeIcon icon={faCamera} />
+  const envelope = <FontAwesomeIcon icon={faEnvelope} />
+  const linkedin = <FontAwesomeIcon icon={faLinkedinIn} />
+  const github = <FontAwesomeIcon icon={faGithub} />
+  const copyright = <FontAwesomeIcon icon={faCopyright} />
 
   return (
     <main>
@@ -246,6 +251,26 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
+
+        {/* Footer */}
+        <footer className="container-fluid footer">
+          <div className="container">
+            <h3 id="footer-header">Get in touch</h3>
+            <p>This website was 100% custom-built. Contact me if you would like a similar site built for your next event.</p>
+          
+
+            <div className="social-media-icons">
+              <Icon href="mailto: ortiz.ivan93@gmail.com" icon={envelope} />
+              <Icon href="https://www.instagram.com/ivunortiz/" icon={instagram} />
+              <Icon href="https://github.com/ivort1" icon={github} />
+              <Icon href="https://www.linkedin.com/in/ivanortiz93" icon={linkedin} />
+            </div>
+
+            <div className="copyright-text">
+              <span className="copyright-icon"><Icon icon={copyright} /></span> Ivan Ortiz 2021
+            </div>
+          </div>
+        </footer>
         
       </div>
     </main>

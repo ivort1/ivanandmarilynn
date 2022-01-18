@@ -9,7 +9,6 @@ import "../../scss/main.scss";
 import {useTranslation} from 'gatsby-plugin-react-i18next';
 
 // Components
-import ReactTable from '../../components/ReactTable';
 import GoBackButton from '../../components/GoBackButton';
 
 const Photos = () => {
