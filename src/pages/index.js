@@ -267,7 +267,7 @@ const IndexPage = () => {
             </div>
 
             <div className="copyright-text">
-              <span className="copyright-icon"><Icon icon={copyright} /></span> Ivan Ortiz 2021
+              <span className="copyright-icon"><Icon icon={copyright} /></span> Ivan Ortiz 2022
             </div>
           </div>
         </footer>
