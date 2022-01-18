@@ -356,7 +356,7 @@ body {
         font-size: 0.85rem;
         padding: 4rem 4rem;
         text-align: center;
-        
+
         /* Flexbox */
         display: flex;
         flex-direction: column;
@@ -371,9 +371,6 @@ body {
     margin-bottom: 1rem;
 }
 
-.footer-text {
-    display: none;
-}
 
 .social-media-icons {
     margin-bottom: 2rem;
@@ -381,7 +378,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .social-media-icons .far {
@@ -415,7 +411,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .copyright-icon {

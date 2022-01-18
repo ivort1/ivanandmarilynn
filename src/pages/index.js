@@ -255,7 +255,7 @@ const IndexPage = () => {
         {/* Footer */}
         <footer className="container-fluid footer">
           <div className="container">
-            <h3 id="footer-header">Get in touch</h3>
+            <span id="footer-header">Get in touch</span>
             <p>This website was 100% custom-built. Contact me if you would like a similar site built for your next event.</p>
           
 
@@ -267,7 +267,7 @@ const IndexPage = () => {
             </div>
 
             <div className="copyright-text">
-              <span className="copyright-icon"><Icon icon={copyright} /></span> Ivan Ortiz 2022
+              <div className="copyright-icon"><Icon icon={copyright} /></div><div>Ivan Ortiz 2022</div>
             </div>
           </div>
         </footer>
