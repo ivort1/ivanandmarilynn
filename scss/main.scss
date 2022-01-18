@@ -350,15 +350,19 @@ body {
 // Footer
 .footer {
     background-color: #303030;
-    color: #c5c5c5;
-    font-size: 0.75rem;
-	padding: 4rem 4rem;
 
-    /* Flexbox */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    .container {
+        color: #c5c5c5;
+        font-size: 0.85rem;
+        padding: 4rem 4rem;
+        text-align: center;
+        
+        /* Flexbox */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 #footer-header {
